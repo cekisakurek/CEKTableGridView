@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "TableGridView.h"
+@interface ViewController : UIViewController<TableGridViewDataSource,TableGridViewDelegate>
 
 @end
